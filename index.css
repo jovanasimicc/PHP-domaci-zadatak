@@ -1,0 +1,14 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    margin-left: 37%;
+    margin-top: 3%;
+    font-size: 60px;
+}
+
+th {
+    font-size: 25px;
+}
