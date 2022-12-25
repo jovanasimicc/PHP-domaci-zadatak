@@ -18,7 +18,7 @@
         <div class="add-termin-div">
             <input type="text" class="form-control" placeholder="Datum..." id="datum">
             <input type="text" class="form-control" placeholder="Lokal..." id="lokal">
-            <select id="musterija" class="form-select">
+            <select id="musterija_id" class="form-select">
                 <option>Izaberi mušteriju</option>
 
                 <?php
@@ -37,7 +37,7 @@
                 ?>
             </select>
 
-            <select id="frizer" class="form-select">
+            <select id="frizer_id" class="form-select">
                 <option value="Frizer">Izaberi frizera</option>
 
                 <?php
@@ -54,10 +54,11 @@
                 ?>
             </select>
 
-            <input type="text" class="form-control" placeholder="Usluga..." id="datum">
-            <input type="number" class="form-control" placeholder="Cena..." id="datum">
+            <input type="text" class="form-control" placeholder="Usluga..." id="usluga">
+            <input type="number" class="form-control" placeholder="Cena..." id="cena">
         </div>
 
+        <button type="button" class="btn btn-danger btn-lg" id="save-termin-btn">SAČUVAJ TERMIN</button>
 
         <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
         <script type="text/javascript" src="javascript.js"></script>

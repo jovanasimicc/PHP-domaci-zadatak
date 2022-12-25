@@ -1,6 +1,6 @@
 <?php
 
-class Musterija
+class Termin
 {
     public $id;
     public $datum;
