@@ -4,11 +4,34 @@
 }
 
 h1 {
-    margin-left: 37%;
-    margin-top: 3%;
+    margin-left: 40%;
     font-size: 60px;
 }
 
 th {
     font-size: 25px;
+}
+
+.table {
+    width: 60%;
+    margin-left: 21%;
+    margin-top: 2%;
+}
+
+#n-termin-btn {
+    margin-top: 2%;
+    margin-left: 47%;
+    margin-bottom: 1%;
+}
+
+.add-termin-div {
+    margin-top: 2%;
+    margin-left: 10%;
+    width: 80%;
+    display: flex;
+}
+
+.form-control,
+.form-select {
+    margin-right: 1%;
 }
