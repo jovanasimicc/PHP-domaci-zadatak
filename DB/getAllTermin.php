@@ -1,4 +1,4 @@
-<table class="table table-hover table-striped">
+<table class="table table-hover table-striped" id="table">
 
     <thead>
         <tr>
@@ -9,7 +9,7 @@
             <th>Usluga</th>
             <th>Cena</th>
             <th></th>
-        <tr>
+        </tr>
     </thead>
 
 
