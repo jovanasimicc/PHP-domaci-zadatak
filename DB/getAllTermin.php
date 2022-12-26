@@ -8,6 +8,7 @@
             <th>Frizer</th>
             <th>Usluga</th>
             <th>Cena</th>
+            <th></th>
         <tr>
     </thead>
 
@@ -45,6 +46,11 @@
                 </td>
                 <td>
                     <?php echo $ter['tcena'];  ?>
+                </td>
+                <td>
+                    <button type="button" class="btn btn-danger" id="del-termin-btn" value="<?php echo $ter['tid']; ?>">
+                        X - DELETE
+                    </button>
                 </td>
             </tr>
         <?php

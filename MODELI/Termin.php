@@ -9,4 +9,13 @@ class Termin
     public $frizer_id;
     public $usluga;
     public $cena;
+
+
+    public function deleteTermin($termin_id)
+    {
+        include '../DB/dbConnection.php';
+
+        $SQL = "DELETE FROM termin WHERE id=" . $termin_id;
+        return $connection->query($SQL);
+    }
 }

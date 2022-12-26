@@ -30,4 +30,19 @@ $(function () {
     });
 
 
+
+    //Brisanje termina u bazi podataka
+    $(document).on('click', '#del-termin-btn', function () {
+        $.ajax({
+            url: 'DB/deleteTermin.php',
+            method: 'POST',
+            data: {
+                termin_id: $(this).val(),
+            },
+            success: function () {
+                window.location.href = 'index.php'
+            }
+        })
+    })
+
 });
